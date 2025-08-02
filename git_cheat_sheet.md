@@ -21,7 +21,7 @@ git commit -m "<your commit message>"
 git push --force origin main
 ```
 
-## Resolving Push Conflicts (Rebase Workflow)
+## Resolving Push Conflicts (Rebase Workflow) yo
 
 ```sh
 git pull origin main --rebase
