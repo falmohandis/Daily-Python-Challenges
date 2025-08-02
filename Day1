@@ -1,0 +1,35 @@
+# Challenge 1
+
+# Write a function that takes a list of strings and returns a new list containing only the palindromes from the original list, in the same order.
+
+
+def palindrome(input):
+    """
+    This function takes a list of strings and returns a new list containing only the palindromes from the original list.
+    
+    :param input: List of strings
+    :return: List of palindromes
+    """
+    return [word for word in input if word == word[::-1]]
+
+# Example usage
+print(palindrome(["radar", "hello", "level", "world", "noon"]))
+
+
+
+
+# Now we will modify the function so that it returns the reverse of all words, irrespective of whether they are palindromes or not.
+
+def reverse_words(input):
+    """
+    This function takes a list of strings and returns a new list containing the reverse of each word from the original list.
+    
+    :param input: List of strings
+    :return: List of reversed words
+    """
+    return [word[::-1] for word in input]
+
+
+# Now we will test this with a bunch of test words...by using the original list of words that I searched only for palindroms
+
+print(reverse_words(["radar", "hello", "level", "world", "noon"]))
