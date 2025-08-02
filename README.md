@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Daily Python Challenges with Solutions Explained in Painful Detail!
 
 ## Table of Contents
@@ -64,7 +63,3 @@ Contributions are encouraged!
 
 This project is licensed under the MIT License.  
 See the
-=======
-# Daily-Python-Challenges
-Daily Python Challenges with Solutions Explained in Painful Detail!
->>>>>>> 3f7d497 (Initial commit)
